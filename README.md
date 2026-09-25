@@ -4,9 +4,8 @@ Repository containing the computational implementation of the model presented in
 
 > "An Efficient Open-Source Thermohygromechanical Phase-Field Model for Explosive Spalling in Refractory Castables"
 
-The code is implemented in Python using [FEniCS/FEniCSx] and contains the
-simulations and material properties used to investigate [BRIEF DESCRIPTION
-OF THE MODEL / PHYSICAL PROBLEM].
+The code is implemented in Python using [FEniCS](https://fenicsproject.org/) and contains the
+simulations and material properties used to investigate the drying of refractory castables using a phase-field model..
 
 In case of use of this code, please cite the corresponding publication.
 
@@ -102,7 +101,7 @@ above. Different versions may require modifications to the code.
 The model and numerical implementation presented in this repository are
 described in:
 
-[BIBLIOGRAPHIC REFERENCE OF THE MAIN PAPER]
+BIBLIOGRAPHIC REFERENCE OF THE MAIN PAPER]
 
 ## License
 
