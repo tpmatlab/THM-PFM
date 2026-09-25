@@ -222,3 +222,6 @@ __marimo__/
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+
+# vscode files
+settings.json

@@ -159,16 +159,6 @@ B_w = Constant(0.025)       # Mass transfer coefficient
 P_v_inf = Constant(1020.0)  # Surrounding environment pressure
 
 # Heat-up curve
-def RABT(t):
-    T_final = 1473.15
-    if t < 300:
-        t_0 = 0
-        T_0 = 298.15
-        return (t - t_0) * (T_final - T_0) / (300) + T_0
-
-    else:
-        return T_final
-
 def T_huc(t):
     hr = 200
     T_0 = 25 + 273.15
